@@ -1,7 +1,7 @@
 baseURL = "https://Isaac4real.github.io"
 title   = "Isaac Reis"
 languageCode = "en-us"
-theme = "Isaac Reis"
+theme = "isaac_theme1"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
