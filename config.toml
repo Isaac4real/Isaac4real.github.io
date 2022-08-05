@@ -170,18 +170,6 @@ disableHugoGeneratorInject = false
     name = "email"
     url  = "mailto:isaacisforreal@gmail.com"
 
-  [params.home]
-      # amount of RSS pages
-      # RSS 文章数目
-      rss = 10
-      # Home page profile
-      # 主页个人信息
-      [params.home.profile]
-        enable = true
-      [params.home.posts]
-        enable = true
-        paginate = 6
-
 [languages]
   [languages.en]
     subtitle  = "Hello Friend NG Theme"
