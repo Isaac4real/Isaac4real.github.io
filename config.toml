@@ -1,13 +1,13 @@
 baseURL = "https://Isaac4real.github.io"
 title   = "Isaac Reis"
 languageCode = "en-us"
-theme = "isaac_website"
+theme = "Isaac Reis"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+paginate  = 5
+rssLimit  = 5  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = ""
   keywords = ""
   images = [""]
 
@@ -155,24 +155,32 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:isaacisforreal@gmail.com"
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/isaacisforreal/"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/Isaac4real"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/isaacisforreal/"
-
-  [[params.social]]
     name = "stackoverflow"
     url  = "https://stackoverflow.com/users/13286107/isaac-reis"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:isaacisforreal@gmail.com"
+
+  [params.home]
+      # amount of RSS pages
+      # RSS 文章数目
+      rss = 10
+      # Home page profile
+      # 主页个人信息
+      [params.home.profile]
+        enable = true
+      [params.home.posts]
+        enable = true
+        paginate = 6
 
 [languages]
   [languages.en]
